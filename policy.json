@@ -1,0 +1,18 @@
+{
+  "retrieval": {
+    "mode": "keyword",
+    "top_k": 3,
+    "chunk_size_chars": 350,
+    "chunk_overlap_chars": 50
+  },
+  "answer_policy": {
+    "allowed_labels": ["supported", "insufficient_support", "not_in_corpus"],
+    "require_citations": true,
+    "max_citations_per_answer": 3,
+    "forbidden_behaviours": [
+      "fabricating product capabilities",
+      "claiming compliance not stated in the corpus",
+      "using outside knowledge as if it came from the provided documents"
+    ]
+  }
+}

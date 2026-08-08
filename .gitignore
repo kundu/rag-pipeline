@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+.idea/
+*.swp
+
+# NOTE: .claude/ is intentionally tracked — it carries the plan, task list,
+# acceptance test cases, and the rag-pipeline engineer skill.
+# Generated pipeline artifacts (chunks.json, final_report.md, llm_calls.jsonl,
+# etc.) are also tracked as evidence of a validated run; `make clean` removes
+# them locally and the pipeline regenerates them from scratch.

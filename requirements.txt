@@ -1,0 +1,6 @@
+# The pipeline core is pure Python 3.10+ stdlib — no installs required when
+# using the `claude` CLI provider or the OpenAI provider (stdlib urllib).
+#
+# Install the line below ONLY if you want the Anthropic API provider
+# (requires ANTHROPIC_API_KEY):
+# anthropic>=0.40

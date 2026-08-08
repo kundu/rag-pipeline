@@ -1,0 +1,98 @@
+[
+  {
+    "query_id": "Q1",
+    "question": "How long is event data retained on the standard plan?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "product_overview::c0000",
+        "document_name": "product_overview.txt",
+        "rank": 1,
+        "retrieval_score": 5.530857
+      },
+      {
+        "chunk_id": "security::c0000",
+        "document_name": "security.txt",
+        "rank": 2,
+        "retrieval_score": 3.178782
+      },
+      {
+        "chunk_id": "product_overview::c0001",
+        "document_name": "product_overview.txt",
+        "rank": 3,
+        "retrieval_score": 0.588743
+      }
+    ]
+  },
+  {
+    "query_id": "Q2",
+    "question": "Does the product support SCIM provisioning?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "product_overview::c0001",
+        "document_name": "product_overview.txt",
+        "rank": 1,
+        "retrieval_score": 3.202551
+      },
+      {
+        "chunk_id": "product_overview::c0000",
+        "document_name": "product_overview.txt",
+        "rank": 2,
+        "retrieval_score": 1.295976
+      },
+      {
+        "chunk_id": "billing::c0000",
+        "document_name": "billing.txt",
+        "rank": 3,
+        "retrieval_score": 0.147425
+      }
+    ]
+  },
+  {
+    "query_id": "Q3",
+    "question": "Can customers get refunds for unused days in a month?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "billing::c0000",
+        "document_name": "billing.txt",
+        "rank": 1,
+        "retrieval_score": 3.611295
+      },
+      {
+        "chunk_id": "security::c0000",
+        "document_name": "security.txt",
+        "rank": 2,
+        "retrieval_score": 3.312667
+      },
+      {
+        "chunk_id": "product_overview::c0000",
+        "document_name": "product_overview.txt",
+        "rank": 3,
+        "retrieval_score": 1.270307
+      }
+    ]
+  },
+  {
+    "query_id": "Q4",
+    "question": "Is the service HIPAA compliant?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "security::c0000",
+        "document_name": "security.txt",
+        "rank": 1,
+        "retrieval_score": 3.884811
+      },
+      {
+        "chunk_id": "product_overview::c0000",
+        "document_name": "product_overview.txt",
+        "rank": 2,
+        "retrieval_score": 0.502981
+      },
+      {
+        "chunk_id": "billing::c0000",
+        "document_name": "billing.txt",
+        "rank": 3,
+        "retrieval_score": 0.49393
+      }
+    ]
+  }
+]

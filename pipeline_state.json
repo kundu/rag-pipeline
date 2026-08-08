@@ -1,0 +1,67 @@
+{
+  "inputs": {
+    "documents": {
+      "billing.txt": "0e2977ee2cb682db4ea7a380edd4d5e7f581e4a75181cda1cf563df946b1949f",
+      "product_overview.txt": "edb2b30d1d54bd3fefacd4276c93737fd283535f7d50ad87864002b8923d947f",
+      "security.txt": "55c7736f27897fd103b749226a67501b7af7abb73fae81a2f48fc2b182f57b27"
+    },
+    "documents_dir": "/home/sauvik/Documents/di/documents",
+    "policy": {
+      "path": "/home/sauvik/Documents/di/policy.json",
+      "sha256": "e980a2090b9d2b73627f0758fe6d662c347d74697a1545e348345b7d0997a84d"
+    },
+    "queries": {
+      "path": "/home/sauvik/Documents/di/queries.json",
+      "sha256": "c0f9a63e5996d2b210117f0cc2b70cac6066bf813446270b3f6532b1b60df415"
+    }
+  },
+  "mode": "keyword",
+  "model": "sonnet",
+  "provider": "claude_cli",
+  "stages": [
+    {
+      "stage": "INIT",
+      "timestamp": "2026-08-08T16:33:20.713003+00:00"
+    },
+    {
+      "stage": "INPUTS_LOADED",
+      "timestamp": "2026-08-08T16:33:20.715016+00:00"
+    },
+    {
+      "stage": "DOCUMENTS_CHUNKED",
+      "timestamp": "2026-08-08T16:33:20.715830+00:00"
+    },
+    {
+      "stage": "INDEX_BUILT",
+      "timestamp": "2026-08-08T16:33:20.716472+00:00"
+    },
+    {
+      "stage": "RETRIEVAL_COMPLETE",
+      "timestamp": "2026-08-08T16:33:20.717079+00:00"
+    },
+    {
+      "stage": "DRAFT_ANSWERS_GENERATED",
+      "timestamp": "2026-08-08T16:33:54.232070+00:00"
+    },
+    {
+      "stage": "HUMAN_REVIEW_COMPLETE",
+      "timestamp": "2026-08-08T16:33:54.232566+00:00"
+    },
+    {
+      "stage": "ANSWERS_AUDITED",
+      "timestamp": "2026-08-08T16:34:27.529772+00:00"
+    },
+    {
+      "stage": "FINAL_REPORT_GENERATED",
+      "timestamp": "2026-08-08T16:34:27.530420+00:00"
+    },
+    {
+      "stage": "VALIDATION_COMPLETE",
+      "timestamp": "2026-08-08T16:34:27.550198+00:00"
+    },
+    {
+      "stage": "RESULTS_FINALISED",
+      "timestamp": "2026-08-08T16:34:27.550391+00:00"
+    }
+  ]
+}

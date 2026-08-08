@@ -1,0 +1,39 @@
+{
+  "aggregate": {
+    "hit_at_k": 1.0,
+    "recall_at_k": 1.0
+  },
+  "k": 3,
+  "num_annotated_queries": 4,
+  "per_query": [
+    {
+      "hit_at_k": 1,
+      "num_expected_evidence": 1,
+      "num_found": 1,
+      "query_id": "Q1",
+      "recall_at_k": 1.0
+    },
+    {
+      "hit_at_k": 1,
+      "num_expected_evidence": 1,
+      "num_found": 1,
+      "query_id": "Q2",
+      "recall_at_k": 1.0
+    },
+    {
+      "hit_at_k": 1,
+      "num_expected_evidence": 1,
+      "num_found": 1,
+      "query_id": "Q3",
+      "recall_at_k": 1.0
+    },
+    {
+      "hit_at_k": 1,
+      "num_expected_evidence": 1,
+      "num_found": 1,
+      "query_id": "Q4",
+      "recall_at_k": 1.0
+    }
+  ],
+  "skipped": false
+}

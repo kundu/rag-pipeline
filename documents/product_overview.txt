@@ -1,0 +1,7 @@
+Product: InsightBoard
+InsightBoard is an analytics workspace for operations teams. It supports dashboards, scheduled reports,
+and anomaly alerts. Scheduled reports can be exported as CSV or PDF. The platform retains event data
+for 13 months on the standard plan and 36 months on the enterprise plan.
+
+Authentication supports email-password, SSO via SAML, and SCIM provisioning on enterprise plans.
+The public API exposes read-only access for dashboards and reports.

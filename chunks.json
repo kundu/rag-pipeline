@@ -1,0 +1,30 @@
+[
+  {
+    "chunk_id": "billing::c0000",
+    "document_name": "billing.txt",
+    "end_char": 316,
+    "start_char": 0,
+    "text": "Billing and Plans\nCustomers are billed monthly by default. Annual billing is available with a discount.\nDowngrades take effect at the start of the next billing cycle.\nRefunds are not offered for partial months, except where required by law.\nEnterprise contracts may include custom payment terms approved by finance.\n"
+  },
+  {
+    "chunk_id": "product_overview::c0000",
+    "document_name": "product_overview.txt",
+    "end_char": 350,
+    "start_char": 0,
+    "text": "Product: InsightBoard\nInsightBoard is an analytics workspace for operations teams. It supports dashboards, scheduled reports,\nand anomaly alerts. Scheduled reports can be exported as CSV or PDF. The platform retains event data\nfor 13 months on the standard plan and 36 months on the enterprise plan.\n\nAuthentication supports email-password, SSO via S"
+  },
+  {
+    "chunk_id": "product_overview::c0001",
+    "document_name": "product_overview.txt",
+    "end_char": 466,
+    "start_char": 300,
+    "text": "\nAuthentication supports email-password, SSO via SAML, and SCIM provisioning on enterprise plans.\nThe public API exposes read-only access for dashboards and reports.\n"
+  },
+  {
+    "chunk_id": "security::c0000",
+    "document_name": "security.txt",
+    "end_char": 350,
+    "start_char": 0,
+    "text": "Security and Compliance\nAll customer data is encrypted in transit using TLS 1.2+ and encrypted at rest using AES-256.\nDaily backups are retained for 30 days. Role-based access control is supported.\nAudit logs are available on enterprise plans and retained for 90 days.\nThe service is not described as HIPAA compliant in current public documentation.\n"
+  }
+]

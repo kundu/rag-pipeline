@@ -1,0 +1,38 @@
+[
+  {
+    "answer": "Standard plan retains event data 13 months.",
+    "citations": [
+      "product_overview::c0000"
+    ],
+    "label": "supported",
+    "query_id": "Q1",
+    "reasoning_summary": "Chunk states platform retains event data 13 months on standard plan, 36 on enterprise."
+  },
+  {
+    "answer": "Yes. Product supports SCIM provisioning, available on enterprise plans, alongside SSO via SAML.",
+    "citations": [
+      "product_overview::c0001"
+    ],
+    "label": "supported",
+    "query_id": "Q2",
+    "reasoning_summary": "Chunk c0001 states SCIM provisioning is supported on enterprise plans."
+  },
+  {
+    "answer": "No. Refunds for partial/unused months are not offered, except where required by law.",
+    "citations": [
+      "billing::c0000"
+    ],
+    "label": "supported",
+    "query_id": "Q3",
+    "reasoning_summary": "billing::c0000 states directly refunds not given for partial months, law exceptions aside."
+  },
+  {
+    "answer": "No. Service not described as HIPAA compliant in current public documentation.",
+    "citations": [
+      "security::c0000"
+    ],
+    "label": "supported",
+    "query_id": "Q4",
+    "reasoning_summary": "security.txt directly states no HIPAA compliance claim exists in public docs — direct negative evidence."
+  }
+]

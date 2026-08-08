@@ -1,0 +1,5 @@
+Security and Compliance
+All customer data is encrypted in transit using TLS 1.2+ and encrypted at rest using AES-256.
+Daily backups are retained for 30 days. Role-based access control is supported.
+Audit logs are available on enterprise plans and retained for 90 days.
+The service is not described as HIPAA compliant in current public documentation.

@@ -1,0 +1,44 @@
+{
+  "queries": [
+    {
+      "query_id": "Q1",
+      "question": "How long is event data retained on the standard plan?",
+      "expected_evidence": [
+        {
+          "document_name": "product_overview.txt",
+          "phrase": "13 months"
+        }
+      ]
+    },
+    {
+      "query_id": "Q2",
+      "question": "Does the product support SCIM provisioning?",
+      "expected_evidence": [
+        {
+          "document_name": "product_overview.txt",
+          "phrase": "SCIM provisioning"
+        }
+      ]
+    },
+    {
+      "query_id": "Q3",
+      "question": "Can customers get refunds for unused days in a month?",
+      "expected_evidence": [
+        {
+          "document_name": "billing.txt",
+          "phrase": "Refunds are not offered for partial months"
+        }
+      ]
+    },
+    {
+      "query_id": "Q4",
+      "question": "Is the service HIPAA compliant?",
+      "expected_evidence": [
+        {
+          "document_name": "security.txt",
+          "phrase": "not described as HIPAA compliant"
+        }
+      ]
+    }
+  ]
+}

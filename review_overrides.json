@@ -1,0 +1,27 @@
+{
+  "auto_approved": false,
+  "final_contexts": {
+    "Q1": [
+      "product_overview::c0000",
+      "security::c0000",
+      "product_overview::c0001"
+    ],
+    "Q2": [
+      "product_overview::c0001",
+      "product_overview::c0000",
+      "billing::c0000"
+    ],
+    "Q3": [
+      "billing::c0000",
+      "security::c0000",
+      "product_overview::c0000"
+    ],
+    "Q4": [
+      "security::c0000",
+      "product_overview::c0000",
+      "billing::c0000"
+    ]
+  },
+  "overrides": [],
+  "reviewed_at": "2026-08-08T16:33:54.232447+00:00"
+}

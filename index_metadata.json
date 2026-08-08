@@ -1,0 +1,16 @@
+{
+  "avg_chunk_tokens": 46.0,
+  "built_at": "2026-08-08T16:33:20.716314+00:00",
+  "chunks_sha256": "376e86360962fdbd15871dfd225753c1bb1476edb10ae99d4554c8df55b363d0",
+  "mode": "keyword",
+  "num_chunks": 4,
+  "num_documents": 3,
+  "parameters": {
+    "bm25_b": 0.75,
+    "bm25_k1": 1.5,
+    "embedding_dim": null,
+    "embedding_hash": null,
+    "tokenizer": "lowercase \\w+ regex"
+  },
+  "vocabulary_size": 120
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "audit_label": "pass",
+    "citation_check": "Cite id exist in final context, hold claimed fact. One cite, under max 3. Good.",
+    "final_context_chunk_ids": [
+      "product_overview::c0000",
+      "security::c0000",
+      "product_overview::c0001"
+    ],
+    "hallucination_risk": "low",
+    "query_id": "Q1",
+    "recommended_fix": "none",
+    "support_assessment": "Chunk product_overview::c0000 say straight up: 'retains event data for 13 months on standard plan'. Match draft exact."
+  },
+  {
+    "audit_label": "pass",
+    "citation_check": "c0001 exist in final context, contain claimed evidence. Single citation enough, within max 3.",
+    "final_context_chunk_ids": [
+      "product_overview::c0001",
+      "product_overview::c0000",
+      "billing::c0000"
+    ],
+    "hallucination_risk": "low",
+    "query_id": "Q2",
+    "recommended_fix": "none",
+    "support_assessment": "c0001 say: 'Authentication supports email-password, SSO via SAML, and SCIM provisioning on enterprise plans.' Match answer claim exact — SCIM yes, enterprise plan gate, SSO SAML mention. No overclaim."
+  },
+  {
+    "audit_label": "pass",
+    "citation_check": "Citation billing::c0000 exists in final context and contains the exact claimed evidence. Single citation, within max of 3.",
+    "final_context_chunk_ids": [
+      "billing::c0000",
+      "security::c0000",
+      "product_overview::c0000"
+    ],
+    "hallucination_risk": "low",
+    "query_id": "Q3",
+    "recommended_fix": "none",
+    "support_assessment": "billing::c0000 states verbatim: 'Refunds are not offered for partial months, except where required by law.' Draft answer matches this exactly, no overclaim."
+  },
+  {
+    "audit_label": "pass",
+    "citation_check": "Citation security::c0000 exist in final context, contain exact claimed evidence. Only 1 citation, under max 3. Good.",
+    "final_context_chunk_ids": [
+      "security::c0000",
+      "product_overview::c0000",
+      "billing::c0000"
+    ],
+    "hallucination_risk": "low",
+    "query_id": "Q4",
+    "recommended_fix": "none",
+    "support_assessment": "Chunk security::c0000 say direct: 'service not described as HIPAA compliant in current public documentation.' Draft answer match this exact, no overclaim."
+  }
+]

@@ -1,0 +1,5 @@
+Billing and Plans
+Customers are billed monthly by default. Annual billing is available with a discount.
+Downgrades take effect at the start of the next billing cycle.
+Refunds are not offered for partial months, except where required by law.
+Enterprise contracts may include custom payment terms approved by finance.
